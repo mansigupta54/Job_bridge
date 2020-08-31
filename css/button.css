@@ -1,0 +1,65 @@
+.header
+{
+    height: 75px;
+    width: 100%;
+    background-color: #63738a;
+}
+.button
+    {
+    position: relative;
+    /* for fixing in button padding  */
+    padding: 0.4em 1.2em;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: transparent;
+    /* for fixing position margins  */
+    margin: 0.4em 0.4em;
+    float: right;
+    }
+    .button.one
+    {
+    color: #fff;
+    }
+    .button.one:after,
+    .button.one:before
+    {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 50px;
+    border: 3px solid;
+    transition: all 0.7s ease;
+    border-radius: 2px;
+    }
+    .button.one:after
+    {
+    bottom: 0;
+    right: 0;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: #e94560;
+    border-right-color: #e94560;
+    }
+    .button.one:before
+    {
+    top: 0px;
+    left: 0px;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-top-color: #e94560;
+    border-left-color: #e94560;
+    }
+    .button.one:hover:after,
+    .button.one:hover:before
+    {
+    border-bottom-color: #e94560;
+    border-right-color: #e94560;
+    border-top-color: #e94560;
+    border-left-color: #e94560;
+    width: 100%;
+    height: 100%;
+    }
