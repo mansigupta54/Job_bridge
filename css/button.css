@@ -21,7 +21,7 @@
     }
     .button.one
     {
-    color: #fff;
+    color: white;
     }
     .button.one:after,
     .button.one:before
@@ -37,12 +37,12 @@
     }
     .button.one:after
     {
-    bottom: 0;
-    right: 0;
+    bottom: 0px;
+    right: 0px;
     border-top-color: transparent;
     border-left-color: transparent;
-    border-bottom-color: #e94560;
-    border-right-color: #e94560;
+    border-bottom-color: #fd0730;
+    border-right-color: #fd0730;
     }
     .button.one:before
     {
@@ -50,16 +50,16 @@
     left: 0px;
     border-bottom-color: transparent;
     border-right-color: transparent;
-    border-top-color: #e94560;
-    border-left-color: #e94560;
+    border-top-color: #fd0730;
+    border-left-color: #fd0730;
     }
     .button.one:hover:after,
     .button.one:hover:before
     {
-    border-bottom-color: #e94560;
-    border-right-color: #e94560;
-    border-top-color: #e94560;
-    border-left-color: #e94560;
+    border-bottom-color: #fd0730;
+    border-right-color: #fd0730;
+    border-top-color: #fd0730;
+    border-left-color: #fd0730;
     width: 100%;
     height: 100%;
     }
