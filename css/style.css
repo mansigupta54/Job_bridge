@@ -3,6 +3,10 @@
 	padding: 0px;
 	box-sizing: border-box;
 }
+.logo
+{
+	float: left;
+}
 .navbar{
     
     display: flex;
