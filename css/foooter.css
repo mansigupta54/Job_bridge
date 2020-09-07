@@ -148,7 +148,7 @@
 }
 
 
-/* Breakpoint-1 : Below 855 px */
+/* Breakpoint-1 : Below 855 px 
 
 @media (max-width:855px) {
     #content {
@@ -167,7 +167,7 @@
 }
 
 
-/* Breakpoint-2 : Below 630 px */
+ Breakpoint-2 : Below 630 px 
 
 @media(max-width:630px) {
     #content {
@@ -195,7 +195,7 @@
 }
 
 
-/* Breakpoint-3 : Below 480 px */
+Breakpoint-3 : Below 480 px 
 
 @media(max-width:480px) {
     #content {
@@ -213,4 +213,4 @@
     #register a {
         display: block;
     }
-}
+}  */
