@@ -5,8 +5,21 @@
 }
 .logo
 {
-    float: left;
+    margin-left: 45%;
+    /* display: flex; */
+    /* justify-content: center; */
+    
 }
+.header h2
+{
+    margin-top: 25px;
+    margin-left: 5px;
+    float: left;
+    color: khaki;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* img config  */
+
 .navbar{
     
     display: flex;
