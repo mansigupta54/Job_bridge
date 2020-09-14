@@ -5,10 +5,7 @@
 }
 .logo
 {
-    margin-left: 45%;
-    /* display: flex; */
-    /* justify-content: center; */
-    
+    margin-left: 45%; 
 }
 .header h2
 {
@@ -18,24 +15,6 @@
     color: khaki;
     font-family: 'Times New Roman', Times, serif;
 }
-.logo img
-
-{
-
-    height: 68px;
-
-    padding: 2px 2px;
-
-    border-radius: 10px;
-
-    width: 170px;
-
-    margin-left: 5px;
-
-    margin-top: 5px;
-
-}
-
 .navbar{
     
     display: flex;
