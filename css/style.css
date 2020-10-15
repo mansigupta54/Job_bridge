@@ -138,6 +138,7 @@ body {
 .register{
     background: -webkit-linear-gradient(left, #3931af, #00c6ff);
     margin-top: 3%;
+    margin-bottom: 3%;
     padding: 3%;
 }
 .register-left{
@@ -236,3 +237,24 @@ body {
 /* .about-us{
     border: 2px solid red;
 } */
+.section1
+{
+    height: 400px;
+    width: 33%;
+    background-color: #00c6ff;
+    float: left;
+}
+.section2
+{
+    height: 400px;
+    width: 33%;
+    background-color: pink;
+    float: left;
+}
+.section3
+{
+    height: 400px;
+    width: 34%;
+    background-color: blueviolet;
+    float: left;
+}
