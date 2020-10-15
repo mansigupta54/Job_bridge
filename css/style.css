@@ -239,28 +239,63 @@ body {
 } */
 .section1
 {
-    height: 300px;
-    width: 33%;
+    height: 600px;
+    width: 65%;
     background-color: #00c6ff;
     float: left;
 }
 .section2
 {
-    height: 300px;
-    width: 33%;
+    height: 600px;
+    width: 35%;
     background-color: pink;
     float: left;
 }
-.section3
+
+
+/* image section  */
+.imagesec
 {
-    height: 300px;
-    width: 34%;
-    background-color: blueviolet;
+    height: 800px;
+    background-color: mediumseagreen;
+}
+/* department section  */
+ .one 
+{ 
+    height: 200px;
+    background-color: black;
+    width: 20%;
+    float: left;
+    border-right: 5px solid lightgray;
+}
+.two 
+{ 
+    height: 200px;
+    background-color: purple;
+    width: 20%;
+    border-right: 5px solid lightgray;
     float: left;
 }
-.section3 img
-{
-    width: 100%;
-    background-size: cover;
-    height: 300px;
+.three
+{ 
+    height: 200px;
+    background-color: green;
+    width: 20%;
+    border-right: 5px solid lightgray;
+    float: left;
+}
+.four
+{ 
+    height: 200px;
+    background-color: red;
+    width: 20%;
+    border-right: 5px solid lightgray;
+    float: left;
+}
+.five 
+{ 
+    height: 200px;
+    background-color: yellow;
+    width: 20%;
+    float: left;
 }
