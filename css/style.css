@@ -239,22 +239,28 @@ body {
 } */
 .section1
 {
-    height: 400px;
+    height: 300px;
     width: 33%;
     background-color: #00c6ff;
     float: left;
 }
 .section2
 {
-    height: 400px;
+    height: 300px;
     width: 33%;
     background-color: pink;
     float: left;
 }
 .section3
 {
-    height: 400px;
+    height: 300px;
     width: 34%;
     background-color: blueviolet;
     float: left;
+}
+.section3 img
+{
+    width: 100%;
+    background-size: cover;
+    height: 300px;
 }
