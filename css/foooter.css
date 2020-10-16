@@ -20,6 +20,7 @@
     flex-direction: row;
     font-family: Arial, Helvetica, sans-serif;
     border-bottom: 4px solid #263238;
+    border-top: 5px solid lightgray;
     width: 100%;
     padding-top: 20px;
     padding-left: 10px;

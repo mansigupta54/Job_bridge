@@ -239,17 +239,38 @@ body {
 } */
 .section1
 {
-    height: 600px;
+    height: 500px;
     width: 65%;
     background-color: #00c6ff;
     float: left;
 }
+.topsec1
+{
+    height: 50%;
+    border-top: 5px solid lightgray;
+}
+.topsecleft img
+{
+    width: 50%;
+    height: 245px;
+}
+.topsecright
+{
+    border-left: 5px solid rgb(206, 76, 76);
+}
+.topsec2
+{
+    border-top: 5px solid lightgray;
+    background-color: #383d41;
+}
 .section2
 {
-    height: 600px;
+    height: 500px;
     width: 35%;
     background-color: pink;
     float: left;
+    border-top: 5px solid lightgray;
+    border-left: 5px solid lightgray;
 }
 
 
