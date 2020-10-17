@@ -253,10 +253,12 @@ body {
 {
     width: 50%;
     height: 245px;
+    float: left;
 }
-.topsecright
+.topsecright img
 {
-    border-left: 5px solid rgb(206, 76, 76);
+    height: 245px;
+    width: 50%;
 }
 .topsec2
 {
@@ -375,6 +377,11 @@ img
     float: left;
     border-right: 5px solid lightgray;
 }
+.one img
+{
+    height: 200px;
+    width: 100%;
+}
 .two 
 { 
     height: 200px;
@@ -382,6 +389,11 @@ img
     width: 20%;
     border-right: 5px solid lightgray;
     float: left;
+}
+.two img
+{
+    height: 200px;
+    width: 100%;
 }
 .three
 { 
@@ -391,6 +403,11 @@ img
     border-right: 5px solid lightgray;
     float: left;
 }
+.three img
+{
+    height: 200px;
+    width: 100%;
+}
 .four
 { 
     height: 200px;
@@ -399,10 +416,20 @@ img
     border-right: 5px solid lightgray;
     float: left;
 }
+.four img
+{
+    height: 200px;
+    width: 100%;
+}
 .five 
 { 
     height: 200px;
     background-color: yellow;
     width: 20%;
     float: left;
+}
+.five img
+{
+    height: 200px;
+    width: 100%;
 }
