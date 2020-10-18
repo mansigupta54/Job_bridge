@@ -294,25 +294,29 @@ body {
 /* image section  */
 .mySlides
 {
-     display: none;
+     display: flex;
+     
+
 }
-img 
+/* img 
 {
     vertical-align: middle;
-}
+} */
 .mySlides img
 {
-    height: 800px;
-    width: 100%;
+    height: 400px;
+    
 }
 
 /* Slideshow container */
 .slideshow-container 
 {
-  max-width: 93%;
+  max-width: 33.33%;
   position: relative;
   margin: auto;
+  
 }
+
 
 /* Caption text */
 .text 
@@ -334,7 +338,12 @@ img
   padding: 8px 12px;
   position: absolute;
   top: 0;
+  
 }
+/* .image-slide .mySlides .numbertext img{
+    width: 360px;
+    height: 380px;
+} */
 
 /* The dots */
 .dot {
