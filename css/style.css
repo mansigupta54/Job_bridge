@@ -207,7 +207,8 @@ body {
     width: 28%;
     float: right;
 }
-.register .nav-tabs .nav-link{
+.register .nav-tabs .nav-link
+{
     padding: 2%;
     height: 34px;
     font-weight: 600;
@@ -215,17 +216,20 @@ body {
     border-top-right-radius: 1.5rem;
     border-bottom-right-radius: 1.5rem;
 }
-.register .nav-tabs .nav-link:hover{
+.register .nav-tabs .nav-link:hover
+{
     border: none;
 }
-.register .nav-tabs .nav-link.active{
+.register .nav-tabs .nav-link.active
+{
     width: 100px;
     color: #0062cc;
     border: 2px solid #0062cc;
     border-top-left-radius: 1.5rem;
     border-bottom-left-radius: 1.5rem;
 }
-.register-heading{
+.register-heading
+{
     text-align: center;
     margin-top: 8%;
     margin-bottom: -15%;
@@ -302,7 +306,7 @@ img
 }
 .mySlides img
 {
-    height: 800px;
+    height: 455px;
     width: 100%;
 }
 
