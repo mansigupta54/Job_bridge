@@ -240,7 +240,7 @@ body {
 .section1
 {
     height: 500px;
-    width: 65%;
+    width: 75%;
     background-color: #00c6ff;
     float: left;
 }
@@ -311,7 +311,7 @@ body {
 /* Slideshow container */
 .slideshow-container 
 {
-  max-width: 33.33%;
+  max-width: 65%;
   position: relative;
   margin: auto;
   display: flex;
