@@ -17,14 +17,7 @@
     margin-top: 5px;
 }
 
-.header h2
-{
-    margin-top: 25px;
-    margin-left: 5px;
-    float: left;
-    color: khaki;
-    font-family: 'Times New Roman', Times, serif;
-}
+
 .navbar{
     
     display: flex;
@@ -35,7 +28,7 @@ nav{
 }
 body {
 	
-	background: #63738a;
+
 	font-family: 'Roboto', sans-serif;
 }
 .form-control {
