@@ -3,29 +3,18 @@
 	padding: 0px;
 	box-sizing: border-box;
 }
-.logo
-{
-    margin-left: 45%; 
-}
-.logo img
-{
-    height: 68px;
-    padding: 2px 2px;
-    border-radius: 10px;
-    width: 170px;
-    margin-left: 5px;
-    margin-top: 5px;
-}
-
-
-.navbar{
+.header{
+    background-color:#003153;
     
+    height: 70px;
+    width: 100%;  
+  }
+   .navbar{
     display: flex;
-    flex-direction: row-reverse;    
-} 
-nav{
-    background-color: red;
-}
+
+  }
+
+
 body {
 	
 
@@ -372,67 +361,55 @@ body {
   to {opacity: 1}
 }
 /* department section  */
- .one 
-{ 
-    height: 200px;
-    background-color: black;
-    width: 20%;
-    float: left;
-    border-right: 5px solid lightgray;
-}
-.one img
-{
-    height: 200px;
+.departments{
+   
+    display: flex;
+  }
+  .d1{
     width: 100%;
-}
-.two 
-{ 
-    height: 200px;
-    background-color: purple;
-    width: 20%;
-    border-right: 5px solid lightgray;
-    float: left;
-}
-.two img
-{
-    height: 200px;
+  }
+
+  .d1 img{  
+    height: 300px;
     width: 100%;
+
+  }
+  .container {
+  position: relative;
+  width: 100%;
 }
-.three
-{ 
-    height: 200px;
-    background-color: green;
-    width: 20%;
-    border-right: 5px solid lightgray;
-    float: left;
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
-.three img
-{
-    height: 200px;
-    width: 100%;
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
-.four
-{ 
-    height: 200px;
-    background-color: red;
-    width: 20%;
-    border-right: 5px solid lightgray;
-    float: left;
+
+.container:hover .image {
+  opacity: 0.3;
 }
-.four img
-{
-    height: 200px;
-    width: 100%;
+
+.container:hover .middle {
+  opacity: 1;
 }
-.five 
-{ 
-    height: 200px;
-    background-color: yellow;
-    width: 20%;
-    float: left;
-}
-.five img
-{
-    height: 200px;
-    width: 100%;
+
+.text {
+  background-color: lightblue;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
 }
