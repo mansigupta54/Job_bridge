@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../Job_bridge/css/style.css">
   <link rel="stylesheet" href="../Job_bridge/css/button.css">
   <link rel="stylesheet" href="../Job_bridge/css/foooter.css">
+  <link rel="stylesheet" href="../Job_bridge/css/loginbutton.css">
 
 </head>
 <body>
@@ -32,7 +33,37 @@
                 <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
                 <h3>Welcome</h3>
                 <p>You are 30 seconds away from earning your own money!</p>
-                <input type="submit" name="" value="Login"/><br/>
+                <!-- <input type="submit" name="" value="Login"/><br/> -->
+                <!-- login page html -->
+                <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+                <div id="id01" class="modal">
+  
+                    <form class="modal-content animate" action="/action_page.php" method="post">
+                      <div class="imgcontainer">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                        <img src="img/social-media-5187243_1920.png" alt="Avatar" class="avatar">
+                      </div>
+                  
+                      <div class="container">
+                        <label for="uname"><b>Username</b></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+                  
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                          
+                        <button type="submit">Login</button>
+                        <label>
+                          <input type="checkbox" checked="checked" name="remember"> Remember me
+                        </label style="color:black;">
+                      </div>
+                  
+                      <div class="container" style="background-color:#f1f1f1">
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                        <span class="psw">Forgot <a href="#">password?</a></span>
+                      </div>
+                    </form>
+                  </div>
+                  
             </div>
             <div class="col-md-9 register-right">
                 <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
@@ -301,6 +332,16 @@
       dots[slideIndex-1].className += " active";
       setTimeout(showSlides, 2000); // Change image every 2 seconds
     }
+    // this script is used to display the login page
+    // Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
     </script>
 </body>
 </html>
