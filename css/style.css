@@ -6,17 +6,22 @@
 .header{
     background-color:#003153;
     
-    height: 70px;
+    height: 80px;
     width: 100%;  
   }
    .navbar{
     display: flex;
 
   }
+  .btn-btn-light
+  {
+    width: 10%;
+    justify-content: flex-end;
+  }
 
 
 body {
-	
+	background-color: #0689aa;
 
 	font-family: 'Roboto', sans-serif;
 }
@@ -297,6 +302,10 @@ body {
 }
 
 /* Slideshow container */
+.backstyle
+{
+  border-top: 4px solid lightgray;
+}
 .slideshow-container 
 {
   max-width: 65%;
