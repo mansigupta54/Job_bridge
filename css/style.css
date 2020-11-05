@@ -361,31 +361,31 @@ body {
   from {opacity: .4} 
   to {opacity: 1}
 }
-
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
 }
 /* department section  */
-.departments{
-   
+.departments
+{   
     display: flex;
-  }
-  .d1{
+}
+.d1
+{
     width: 100%;
-  }
-
-  .d1 img{  
+}
+.d1 img
+{  
     height: 300px;
     width: 100%;
-
-  }
-  .container {
+}
+.container 
+{
   position: relative;
   width: 100%;
 }
-
-.image {
+.image 
+{
   opacity: 1;
   display: block;
   width: 100%;
@@ -393,8 +393,8 @@ body {
   transition: .5s ease;
   backface-visibility: hidden;
 }
-
-.middle {
+.middle 
+{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -404,16 +404,16 @@ body {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-
-.container:hover .image {
+.container:hover .image 
+{
   opacity: 0.3;
 }
-
-.container:hover .middle {
+.container:hover .middle 
+{
   opacity: 1;
 }
-
-.text {
+.text 
+{
   background-color: lightblue;
   color: white;
   font-size: 16px;
