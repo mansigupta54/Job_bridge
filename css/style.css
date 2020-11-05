@@ -376,20 +376,23 @@ body {
   to {opacity: 1}
 }
 /* department section  */
-.departments{
-   
+.departments
+{   
     display: flex;
-  }
-  .d1{
+    border-top: 4px solid lightgray;
+}
+.d1
+{
     width: 100%;
-  }
-
-  .d1 img{  
-    height: 300px;
+}
+.d1 img
+{  
+    height: 180px;
     width: 100%;
-
-  }
-  .container {
+    border-radius: 7%;
+}
+.container 
+{
   position: relative;
   width: 100%;
 }
