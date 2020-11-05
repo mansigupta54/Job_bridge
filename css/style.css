@@ -1,7 +1,7 @@
 *{
     margin: 0px;
 	padding: 0px;
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 .header{
     background-color:#003153;
@@ -297,13 +297,17 @@ body {
 }
 
 /* Slideshow container */
+.backstyle
+{
+    background-color: #0689aa;
+    border-bottom: 4px solid lightgray;
+}
 .slideshow-container 
 {
   max-width: 65%;
   position: relative;
   margin: auto;
   display: flex;
-  
 }
 
 
@@ -368,6 +372,7 @@ body {
 /* department section  */
 .departments
 {   
+    background-color: #0689aa;
     display: flex;
 }
 .d1
@@ -376,8 +381,10 @@ body {
 }
 .d1 img
 {  
-    height: 300px;
+    height: 180px;
     width: 100%;
+    border-radius: 7%;
+
 }
 .container 
 {

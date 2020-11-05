@@ -118,7 +118,7 @@
 }
 
 #register a:hover {
-    background-color: blue;
+    background-color: rgb(10, 130, 177);
     color: white;
     font-weight: bold;
     transition: .3s;
