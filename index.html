@@ -75,58 +75,60 @@
                         <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Hirer</a>
                     </li>
                 </ul>
-                <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                        <h3 class="register-heading">Apply as a Student</h3>
-                        <div class="row register-form">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="fname" placeholder="First Name *" value="" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="lname" placeholder="Last Name *" value="" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="password" class="form-control" name="password" placeholder="Password *" value="" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="password" class="form-control"   placeholder="Confirm Password *" value="" />
-                                </div>
-                                <div class="form-group">
-                                    <div class="maxl">
-                                        <label class="radio inline"> 
-                                            <input type="radio" name="gender" value="male" checked>
-                                            <span> Male </span style="color:red;"> 
-                                        </label>
-                                        <label class="radio inline"> 
-                                            <input type="radio" name="gender" value="female">
-                                            <span>Female </span style="color:black;"> 
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="email" class="form-control" name="email" placeholder="Your Email *" value="" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" minlength="10" maxlength="10" name="Phone" class="form-control" placeholder="Your Phone *" value="" />
-                                </div>
-                                <div class="form-group">
-                                    <select class="form-control">
-                                        <option class="hidden"  selected disabled>Please select your Security Question</option>
-                                        <option>What is your Birthdate?</option>
-                                        <option>What is Your old Phone Number</option>
-                                        <option>What is your pet Name?</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control"  name="Securityquestion" placeholder="Enter Your Answer *" value="" />
-                                </div>
-                                <input type="submit" class="btnRegister"  value="Register"/>
-                            </div>
-                        </div>
-                    </div>
+                <form action="form.php" method="POST">
+                  <div class="tab-content" id="myTabContent">
+                      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                          <h3 class="register-heading">Apply as a Student</h3>
+                          <div class="row register-form">
+                              <div class="col-md-6">
+                                  <div class="form-group">
+                                      <input type="text" class="form-control" name="fname" placeholder="First Name *" value="" />
+                                  </div>
+                                  <div class="form-group">
+                                      <input type="text" class="form-control" name="lname" placeholder="Last Name *" value="" />
+                                  </div>
+                                  <div class="form-group">
+                                      <input type="password" class="form-control" name="password" placeholder="Password *" value="" />
+                                  </div>
+                                  <div class="form-group">
+                                      <input type="password" class="form-control"   placeholder="Confirm Password *" value="" />
+                                  </div>
+                                  <div class="form-group">
+                                      <div class="maxl">
+                                          <label class="radio inline"> 
+                                              <input type="radio" name="gender" value="male" checked>
+                                              <span> Male </span style="color:red;"> 
+                                          </label>
+                                          <label class="radio inline"> 
+                                              <input type="radio" name="gender" value="female">
+                                              <span>Female </span style="color:black;"> 
+                                          </label>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-md-6">
+                                  <div class="form-group">
+                                      <input type="email" class="form-control" name="email" placeholder="Your Email *" value="" />
+                                  </div>
+                                  <div class="form-group">
+                                      <input type="text" minlength="10" maxlength="10" name="Phone" class="form-control" placeholder="Your Phone *" value="" />
+                                  </div>
+                                  <div class="form-group">
+                                      <select class="form-control">
+                                          <option class="hidden"  selected disabled>Please select your Security Question</option>
+                                          <option>What is your Birthdate?</option>
+                                          <option>What is Your old Phone Number</option>
+                                          <option>What is your pet Name?</option>
+                                      </select>
+                                  </div>
+                                  <div class="form-group">
+                                      <input type="text" class="form-control"  name="Securityquestion" placeholder="Enter Your Answer *" value="" />
+                                  </div>
+                                  <input type="submit" class="btnRegister"  value="Register"/>
+                              </div>
+                          </div>
+                      </div>
+                  </form>
                     <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                         <h3  class="register-heading">Apply as a Hirer</h3>
                         <div class="row register-form">
