@@ -14,4 +14,14 @@ $email = $_POST['email'];
 $password = $_POST['password'];
 $s_ques = $_POST['Securityquestion'];
 $gender = $_POST['gender'];
+$sql = "INSERT INTO job-bridge(first_name,last_name,e-mail,password,security_ans,gender) VALUES 
+('$fname','$lname','$email','$password','$s_ques','$gender')"
+if(!mysqli_query($con,$sql))
+{
+    echo 'Not inserted';
+}
+else{
+    echo 'Data inserted';
+}
+header("refresh:3;url=index1.html")
 ?>
