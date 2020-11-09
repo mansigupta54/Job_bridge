@@ -15,7 +15,7 @@ $password = $_POST['password'];
 $s_ques = $_POST['Securityquestion'];
 $gender = $_POST['gender'];
 $sql = "INSERT INTO job-bridge(first_name,last_name,e-mail,password,security_ans,gender) VALUES 
-('$fname','$lname','$email','$password','$s_ques','$gender')"
+('$fname','$lname','$email','$password','$s_ques','$gender')";
 if(!mysqli_query($con,$sql))
 {
     echo 'Not inserted';
