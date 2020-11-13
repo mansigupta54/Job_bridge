@@ -11,11 +11,11 @@ if(!mysqli_select_db($con,'job-bridge'))
 $fname = $_POST['fname'];
 $lname = $_POST['lname'];
 $email = $_POST['email'];
-$password = $_POST['password'];
+$password = $_POST['passcode'];
 $phone=$_POST['phone'];
 $s_ques = $_POST['Securityquestion'];
 $gender = $_POST['gender'];
-$sql = "INSERT INTO sign-up(first_name,last_name,email,password,phone,security_ans,gender) VALUES 
+$sql = "INSERT INTO sign-up(first_name,last_name,email,passcode,phone,security_ans,gender) VALUES 
 ('$fname','$lname','$email','$password','$phone','$s_ques','$gender')";
 if(!mysqli_query($con,$sql))
 {
