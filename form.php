@@ -12,10 +12,11 @@ $fname = $_POST['fname'];
 $lname = $_POST['lname'];
 $email = $_POST['email'];
 $password = $_POST['password'];
-$s_ques = $_POST['Securityquestion'];
+$phone = $_POST['phone']
+$sans = $_POST['Securityquestion'];
 $gender = $_POST['gender'];
-$sql = "INSERT INTO job-bridge(first_name,last_name,e-mail,password,security_ans,gender) VALUES 
-('$fname','$lname','$email','$password','$s_ques','$gender')";
+$sql = "INSERT INTO job-bridge(first_name,last_name,e-mail,passcode,phone,security_ans,gender) VALUES 
+('$fname','$lname','$email','$password','$phone','$sans','$gender')";
 if(!mysqli_query($con,$sql))
 {
     echo 'Not inserted';
