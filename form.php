@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect('localhost','root',' ');
+$con = mysqli_connect('localhost','root','');
 if(!$con)
 {
     echo"Not connect to the server";
@@ -14,14 +14,11 @@ $email = $_POST['email'];
 $password = $_POST['password'];
 $s_ques = $_POST['Securityquestion'];
 $gender = $_POST['gender'];
-<<<<<<< HEAD
-$sql = "INSERT INTO job-bridge(first_name,last_name,e-mail,passcode,phone,security_ans,gender) VALUES 
-('$fname','$lname','$email','$password','$phone','$sans','$gender')";
-}
-=======
->>>>>>> eaa91fbbce65d13c97745e1f80bb26b8ab963968
-$sql = "INSERT INTO job-bridge(first_name,last_name,e-mail,password,security_ans,gender) VALUES 
-('$fname','$lname','$email','$password','$s_ques','$gender')";
+// $sql = "INSERT INTO job-bridge(first_name,last_name,e-mail,passcode,phone,security_ans,gender) VALUES 
+// ('$fname','$lname','$email','$password','$phone','$sans','$gender')";
+// }
+$sql = " INSERT INTO `users` ( `first_name`, `last_name`, `e-mail`, `password`, `security_ans`, `gender`)
+ VALUES ( '$fname', '$lname', '$email', '$password', '$s_ques', '$gender')";
 if(!mysqli_query($con,$sql))
 {
     echo 'Not inserted';
@@ -29,5 +26,5 @@ if(!mysqli_query($con,$sql))
 else{
     echo 'Data inserted';
 }
-header("refresh:3;url=index1.html")
+// header("refresh:3;url=index1.html")
 ?>
