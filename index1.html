@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../Job_bridge/css/index1.css">
     <style>
         body { 
@@ -20,7 +24,7 @@
     margin: 0;
     }  
   header, footer, article, nav, div {
-    padding: 1.2em;
+    padding: 0.2em;
     background: gold;
     }
   #pageHeader {
@@ -55,9 +59,37 @@
     </style>
 </head>
 <body>
-    <header id="pageHeader">Header</header>
+    <header id="pageHeader">
+        <div class="container">
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+              </li>
+            </ul>
+           </div>
+    </header>
     <article id="mainArticle">Article</article>
-    <nav id="mainNav">Nav</nav>
+    <nav id="mainNav">
+        <div class="container">
+            <div class="card" style="width:243px">
+              <img class="card-img-top" src="img/img_avatar1.png" alt="Card image" style="width:100%">
+              <div class="card-body">
+                <h4 class="card-title">John Doe</h4>
+                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
+              </div>
+            </div>
+            <br>
+    </nav>
     <div id="siteAds">Ads</div>
     <footer id="pageFooter">Footer</footer>
 </body>
