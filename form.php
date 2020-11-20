@@ -15,8 +15,8 @@ $password = $_POST['password'];
 $s_ques = $_POST['Securityquestion'];
 $gender = $_POST['gender'];
 
-$sql = " INSERT INTO `users` ( `first_name`, `last_name`, `e-mail`, `password`, `security_ans`, `gender`)
- VALUES ( '$fname', '$lname', '$email', '$password', '$s_ques', '$gender')";
+$sql = " INSERT INTO users( first_name, last_name, e-mail, password, security_ans, gender)
+ VALUES ( $fname, $lname, $email, $password, $s_ques, $gender)";
 if(!mysqli_query($con,$sql))
 {
     echo 'Not inserted';
