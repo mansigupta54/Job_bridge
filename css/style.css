@@ -20,10 +20,14 @@
   }
 
 
+
 body {
 	background-color: #0689aa;
 
 	font-family: 'Roboto', sans-serif;
+}
+.header .navbar img {
+  height: 76px;
 }
 .form-control {
 	height: 40px;
