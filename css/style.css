@@ -13,6 +13,13 @@
     display: flex;
 
   }
+  .navbar img
+  {
+    height: 65px;
+    width: 150px;
+    border-radius: 7px;
+
+  }  
   .btn-btn-light
   {
     width: 10%;
