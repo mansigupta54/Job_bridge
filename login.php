@@ -18,6 +18,7 @@ if($num == 1){
     header("refresh:0;url=index1.html");
 }
 else{
+    
     $showError = "Invalid Credentials";
 }
 
