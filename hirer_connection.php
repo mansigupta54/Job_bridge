@@ -22,6 +22,7 @@ if(!mysqli_query($con,$sql))
 }
 else{
     echo 'Data inserted';
-    header("refresh:3;url=index1.html");
+    
 }
+header("refresh:0;url=index1.html")
 ?>
