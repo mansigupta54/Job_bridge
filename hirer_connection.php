@@ -18,7 +18,7 @@ $sql = "INSERT INTO `user`(`fname`, `lname`, `email`, `phone`, `password`, `Secu
 VALUES ($first_name,$last_name,$email,$phone,$password,$security_question)";
 if(!mysqli_query($con,$sql))
 {
-    echo 'Not inserted';
+    echo ' hirer Not inserted';
 }
 else{
     echo 'Data inserted';
