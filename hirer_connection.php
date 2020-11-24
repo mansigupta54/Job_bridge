@@ -1,10 +1,10 @@
 <?php
-$con = mysqli_connect('localhost','root','','hirer');
+$con = mysqli_connect('localhost','root','','job-bridge');
 if(!$con)
 {
     echo"Not connect to the server";
 }
-if(!mysqli_select_db($con,'hirer'))
+if(!mysqli_select_db($con,'job-bridge'))
 {
     echo"Database not selected";
 }
