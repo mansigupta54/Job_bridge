@@ -1,10 +1,10 @@
 <?php
-$con = mysqli_connect('localhost','root','','hirer');
+$con = mysqli_connect('localhost','root','','job-bridge');
 if(!$con)
 {
     echo"Not connect to the server";
 }
-if(!mysqli_select_db($con,'hirer'))
+if(!mysqli_select_db($con,'job-bridge'))
 {
     echo"Database not selected";
 }
@@ -18,10 +18,11 @@ $sql = "INSERT INTO `user`(`fname`, `lname`, `email`, `phone`, `password`, `Secu
 VALUES ($first_name,$last_name,$email,$phone,$password,$security_question)";
 if(!mysqli_query($con,$sql))
 {
-    echo 'Not inserted';
+    echo 'welcome';
 }
 else{
     echo 'Data inserted';
-    header("refresh:3;url=index1.html");
+    
 }
+header("refresh:0;url=index1.html")
 ?>
