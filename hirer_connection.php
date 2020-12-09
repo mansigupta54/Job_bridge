@@ -19,7 +19,7 @@ if($password==$confirm_password){
             echo 'welcome';
         }
         else{
-            header("refresh:3;url=index.html");
+            header("refresh:2;url=index.html");
         }
     }else {
         echo "Email is already registered";
