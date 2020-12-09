@@ -127,7 +127,7 @@ if (!isset($_SESSION['id'])) {
           <!-- Copyright -->
         
         </footer>
-        <!-- Footer --></footer>
+        </footer>
 </body>
 </html>
 
