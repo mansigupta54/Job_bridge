@@ -12,7 +12,8 @@ $security_question = $_POST['Securityquestion'];
 if($password==$confirm_password){
     $result=mysqli_query($con,"SELECT * FROM `user` WHERE email='$email' ");
     if(mysqli_num_rows($result)==0){
-        $sql = "INSERT INTO `user`(`fname`, `lname`, `email`, `phone`, `password`, `gender`, `Securityquestion`, `who`) VALUES ('$first_name','$last_name','$email','$phone','$password','$gender','$security_question','student')";
+        $sql = "INSERT INTO `user`(`fname`, `lname`, `email`, `phone`, `password`, `gender`, `Securityquestion`, `who`) 
+        VALUES ('$first_name','$last_name','$email','$phone','$password','$gender','$security_question','student')";
         if(!mysqli_query($con,$sql))
         {
             echo 'welcome';
