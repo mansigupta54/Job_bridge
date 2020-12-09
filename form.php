@@ -13,13 +13,14 @@ $security_question = $_POST['Securityquestion'];
 if($password==$confirm_password){
     $result=mysqli_query($con,"SELECT * FROM `user` WHERE email='$email' ");
     if(mysqli_num_rows($result)==0){
-        $sql = "INSERT INTO `user`(`fname`, `lname`, `email`, `phone`, `password`, `gender`,`Securityquestion`, `who`) VALUES ('$fname','$lname','$email','$phone','$password','$gender','$security_question','hirer')";
+        $sql = "INSERT INTO `user`(`fname`, `lname`, `email`, `phone`, `password`, `gender`,`Securityquestion`, `who`) 
+        VALUES ('$fname','$lname','$email','$phone','$password','$gender','$security_question','hirer')";
         if(!mysqli_query($con,$sql))
         {
             echo 'welcome';
         }
         else{
-            header("refresh:3;url=index.html");
+            header("refresh:2;url=index.html");
         }
     }else {
         echo "Email is already registered";
