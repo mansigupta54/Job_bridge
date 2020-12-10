@@ -11,7 +11,7 @@
         {
             width: 100%;
             height: 100px;
-            background-color: lightgray;
+            background-color: #0689aa;
             margin-bottom: 15px;
             display: flex;
             justify-content: center;
@@ -56,6 +56,7 @@
             font-size: 40px;
             color: white;
             border-radius: 10px;
+            position: relative;
         }
         .b
         {
@@ -86,29 +87,53 @@
         .a img
         {
             height: 100%;
-            background-size: cover;
+            width: 100%;
+            border-radius: 10px;
+        }
+        .b img
+        {
+            height: 100%;
+            width: 100%;
+            border-radius: 10px;
+        }
+        .text{
+            position: absolute;
+            top: 50%;
+            left: 45%;
+            transform: translate(-50%,-50%);
+        }
+        .text1{
+            position: absolute;
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .c img
+        {
+            height: 100%;
+            width: 100%;
             border-radius: 10px;
         }
         
     </style>
 </head>
 <body>
-        <div id="header">Header</div>
+        <div id="header">Department</div>
             <div id="section3">
                 <div id="side1">
-                    <div class="a"><img src="../Job_bridge/img/cse3.jpg" alt=""> Article-1</div>
-                    <div class="a">Article-2</div>
-                    <div class="a">Article-3</div>
+                    <div class="a"><img src="../Job_bridge/img/cse3.jpg" alt=""><div class="text">CSE</div></div>
+                    <div class="a"><img src="../Job_bridge/img/mech3.jpg" alt=""><div class="text">Mechanical</div></div>
+                    <div class="a"><img src="../Job_bridge/img/medecine.jpg" alt=""><div class="text">Medecine</div></div>
                 </div>
                 <div id="side2">
-                    <div class="b">Article-1</div>
-                    <div class="b">Article-2</div>
-                    <div class="b">Article-3</div>
+                    <div class="b"><img src="../Job_bridge/img/mana3.jpg" alt=""><div class="text1">Management</div></div>
+                    <div class="b"><img src="../Job_bridge/img/civil.jpg" alt=""></div>
+                    <div class="b"><img src="../Job_bridge/img/arch.jpg" alt=""></div>
                 </div>
                 <div id="side3">
-                    <div class="c">Article-1</div>
-                    <div class="c">Article-2</div>
-                    <div class="c">Article-3</div>
+                    <div class="c"><img src="../Job_bridge/img/commer.jpg" alt=""></div>
+                    <div class="c"><img src="../Job_bridge/img/elec.png" alt=""></div>
+                    <div class="c"><img src="../Job_bridge/img/bank.jpg" alt=""></div>
                 </div>
             </div>
     
