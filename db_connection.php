@@ -1,13 +1,6 @@
 <?php
-$con = mysqli_connect('localhost','root','');
-if(!$con)
-{
-    echo"Not connect to the server";
-}
-if(!mysqli_select_db($con,'job-bridge'))
-{
-    echo"Database not selected";
-}
+$con = mysqli_connect('localhost','root','','job_bridge') or die("connection not estblished");
+
 $fname = $_POST['fname'];
 $lname = $_POST['lname'];
 $email = $_POST['email'];

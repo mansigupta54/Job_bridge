@@ -1,25 +1,20 @@
 <?php
-$con = mysqli_connect('localhost','root','','job-bridge');
-if(!$con)
-{
-    echo"Not connect to the server";
-}
-if(!mysqli_select_db($con,'job-bridge'))
-{
-    echo"Database not selected";
-}
-$email = $_POST["uname"];
-$password = $_POST["psw"];
-$sql = "Select * from user where email='$email' AND password='$password'";
+session_start();
+$con = mysqli_connect('localhost','root','','job_bridge') or die("connection not established");
+
+$email = $_POST["email"];
+$password = $_POST["password"];
+$sql = "SELECT * FROM user WHERE email='$email' AND password='$password'";
 $result = mysqli_query($con,$sql);
-$num = mysqli_num_rows($result);
-if($num == 1){
-    $login=true;
-    header("refresh:0;url=index1.html");
+
+if( mysqli_num_rows($result)== 1){
+    $results=mysqli_fetch_assoc($result);
+    $_SESSION['id']=$results['id'];
+    header("refresh:0;url=index1.php");
 }
 else{
     
-    $showError = "Invalid Credentials";
+    echo "Invalid Credentials";
 }
 
 ?>
